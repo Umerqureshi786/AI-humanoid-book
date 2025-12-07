@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# docusaurus build output
+/build
+/.docusaurus
+/docs/my-docs
+
+# misc
+.DS_Store
+.env.local
+.env*.local
+.env
+.cache
+Thumbs.db
+*.tmp
+*.swp
+
+# log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
