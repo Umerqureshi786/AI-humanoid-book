@@ -18,13 +18,13 @@ const config: Config = {
   url: 'https://umerqureshi786.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/AI-Humanoid-Book/',
+  baseUrl: '/AI-humanoid-book/',
   trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Umerqureshi786',
-  projectName: 'AI-Humanoid-Book',
+  projectName: 'AI-humanoid-book',
 
   onBrokenLinks: 'throw',
 
@@ -41,6 +41,9 @@ const config: Config = {
       'classic',
       {
         docs: {
+          path: 'book',
+          routeBasePath: 'book',
+          sidebarPath: './sidebars.ts',
           editUrl:
             'https://github.com/Umerqureshi786/AI-Humanoid-Book/tree/main/',
         },
@@ -80,10 +83,10 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: 'chapter1',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Book',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
