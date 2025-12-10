@@ -17,11 +17,20 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={clsx('padding-vert--md', styles.robotImageContainer)}>
+          <img src="/AI-humanoid-book/img/undraw_docusaurus_react.svg" alt="Humanoid Robot" className={styles.robotImage} />
+        </div>
+        <p className="hero__description">
+          Explore the fascinating world of physical AI and humanoid robotics. This book delves into the core concepts,
+          cutting-edge research, and practical applications that are shaping the future of embodied intelligence.
+          Whether you're a student, researcher, or enthusiast, discover comprehensive insights into designing,
+          building, and programming humanoid robots.
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/book/chapter1">
+            Start Reading - Chapter 1
           </Link>
         </div>
       </div>
