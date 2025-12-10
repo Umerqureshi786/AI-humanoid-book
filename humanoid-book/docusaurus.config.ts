@@ -133,12 +133,16 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Umerqureshi786/AI-Humanoid-Book',
+              href: 'https://github.com/Umerqureshi786/AI-Humanoid-Book', // Existing GitHub link for the repo
+            },
+            {
+              label: 'My GitHub Profile',
+              href: 'https://github.com/Umerqureshi786', // New GitHub profile link
             },
           ],
         },
       ],
-      copyright: `Copyright © 2025 My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Umer Qureshi. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
