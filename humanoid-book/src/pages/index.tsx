@@ -18,7 +18,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={clsx('padding-vert--md', styles.robotImageContainer)}>
-          <img src="/AI-humanoid-book/img/undraw_docusaurus_react.svg" alt="Humanoid Robot" className={styles.robotImage} />
+          <img src="/AI-humanoid-book/img/technology.jpg" alt="Humanoid Robot" className={styles.robotImage} />
         </div>
         <p className="hero__description">
           Explore the fascinating world of physical AI and humanoid robotics. This book delves into the core concepts,
