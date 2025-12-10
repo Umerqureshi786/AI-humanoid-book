@@ -24,8 +24,8 @@
 
 .robotImageContainer {
   margin: 0 auto;
-  width: 200px; /* Adjust as needed */
-  height: 200px; /* Adjust as needed */
+  width: 400px; /* Increased size for homepage image */
+  height: 400px; /* Increased size for homepage image */
 }
 
 .robotImage {
