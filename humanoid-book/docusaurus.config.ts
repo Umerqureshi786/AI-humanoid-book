@@ -18,13 +18,13 @@ const config: Config = {
   url: 'https://umerqureshi786.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/AI-humanoid-book/',
+  baseUrl: '/humanoid-Book/',
   trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Umerqureshi786',
-  projectName: 'AI-humanoid-book',
+  projectName: 'humanoid-Book',
 
   onBrokenLinks: 'throw',
 
@@ -45,7 +45,7 @@ const config: Config = {
           routeBasePath: 'book',
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/Umerqureshi786/AI-Humanoid-Book/tree/main/',
+            'https://github.com/Umerqureshi786/humanoid-Book/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Umerqureshi786/AI-Humanoid-Book/tree/main/',
+            'https://github.com/Umerqureshi786/humanoid-Book/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -90,7 +90,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Umerqureshi786/AI-Humanoid-Book',
+          href: 'https://github.com/Umerqureshi786/humanoid-Book',
           position: 'right',
         },
       ],
@@ -133,7 +133,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Umerqureshi786/AI-Humanoid-Book', // Existing GitHub link for the repo
+              href: 'https://github.com/Umerqureshi786/humanoid-Book', // Existing GitHub link for the repo
             },
             {
               label: 'My GitHub Profile',
