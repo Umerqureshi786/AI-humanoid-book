@@ -13,9 +13,9 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 [P] Initialize FastAPI backend project in `backend/`
-- [ ] T002 [P] Initialize React frontend project in `frontend/`
-- [ ] T003 [P] Configure linting and formatting tools for both projects
+- [X] T001 [P] Initialize FastAPI backend project in `backend/`
+- [X] T002 [P] Initialize React frontend project in `frontend/`
+- [X] T003 [P] Configure linting and formatting tools for both projects
 
 ---
 
@@ -23,12 +23,12 @@
 
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 
-- [ ] T004 Setup Qdrant client in `backend/src/services/qdrant_client.py`
-- [ ] T005 Implement data ingestion script in `backend/scripts/ingest.py` to:
-    - [ ] Read all Markdown files from a specified directory
-    - [ ] Chunk the content into 500-800 token chunks with overlap
-    - [ ] Generate embeddings using OpenAI embedding models
-    - [ ] Store embeddings and metadata in Qdrant
+- [X] T004 Setup Qdrant client in `backend/src/services/qdrant_client.py`
+- [X] T005 Implement data ingestion script in `backend/scripts/ingest.py` to:
+    - [X] Read all Markdown files from a specified directory
+    - [X] Chunk the content into 500-800 token chunks with overlap
+    - [X] Generate embeddings using OpenAI embedding models
+    - [X] Store embeddings and metadata in Qdrant
 
 **Checkpoint**: Foundation ready - user story implementation can now begin.
 
@@ -42,15 +42,15 @@
 
 ### Implementation for User Story 1
 
-- [ ] T006 [US1] Create `Query` and `Answer` models in `backend/src/models/chat.py`
-- [ ] T007 [US1] Implement RAG service in `backend/src/services/rag_service.py` to:
-    - [ ] Receive a query
-    - [ ] Retrieve relevant chunks from Qdrant
-    - [ ] Use OpenAI Agents / ChatKit SDK to generate an answer
-    - [ ] Include citations in the answer
-- [ ] T008 [US1] Implement the `/query` endpoint in `backend/src/api/chat.py`
-- [ ] T009 [P] [US1] Create a React-based chatbot widget in `frontend/src/components/Chatbot.js`
-- [ ] T010 [US1] Integrate the chatbot widget with the backend API in `frontend/src/App.js`
+- [X] T006 [US1] Create `Query` and `Answer` models in `backend/src/models/chat.py`
+- [X] T007 [US1] Implement RAG service in `backend/src/services/rag_service.py` to:
+    - [X] Receive a query
+    - [X] Retrieve relevant chunks from Qdrant
+    - [X] Use OpenAI Agents / ChatKit SDK to generate an answer
+    - [X] Include citations in the answer
+- [X] T008 [US1] Implement the `/query` endpoint in `backend/src/api/chat.py`
+- [X] T009 [P] [US1] Create a React-based chatbot widget in `frontend/src/components/Chatbot.js`
+- [X] T010 [US1] Integrate the chatbot widget with the backend API in `frontend/src/App.js`
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently.
 
@@ -64,9 +64,9 @@
 
 ### Implementation for User Story 2
 
-- [ ] T011 [US2] Extend the RAG service in `backend/src/services/rag_service.py` to handle selected-text queries.
-- [ ] T012 [US2] Update the `/query` endpoint in `backend/src/api/chat.py` to accept selected text.
-- [ ] T013 [US2] Implement text selection functionality in the frontend in `frontend/src/App.js`.
+- [X] T011 [US2] Extend the RAG service in `backend/src/services/rag_service.py` to handle selected-text queries.
+- [X] T012 [US2] Update the `/query` endpoint in `backend/src/api/chat.py` to accept selected text.
+- [X] T013 [US2] Implement text selection functionality in the frontend in `frontend/src/App.js`.
 
 **Checkpoint**: At this point, User Stories 1 AND 2 should both work independently.
 
@@ -80,7 +80,7 @@
 
 ### Implementation for User Story 3
 
-- [ ] T014 [US3] Implement hallucination handling logic in the RAG service in `backend/src/services/rag_service.py`.
+- [X] T014 [US3] Implement hallucination handling logic in the RAG service in `backend/src/services/rag_service.py`.
 
 **Checkpoint**: All user stories should now be independently functional.
 
@@ -90,11 +90,11 @@
 
 **Purpose**: Improvements that affect multiple user stories
 
-- [ ] T015 [P] Add comprehensive documentation to `backend/` and `frontend/`
-- [ ] T016 [P] Add unit and integration tests using `pytest` for the backend
-- [ ] T017 [P] Add unit and integration tests for the frontend
-- [ ] T018 Security hardening of the backend API
-- [ ] T019 Run quickstart.md validation
+- [X] T015 [P] Add comprehensive documentation to `backend/` and `frontend/`
+- [X] T016 [P] Add unit and integration tests using `pytest` for the backend
+- [X] T017 [P] Add unit and integration tests for the frontend
+- [X] T018 Security hardening of the backend API
+- [X] T019 Run quickstart.md validation
 
 ---
 
