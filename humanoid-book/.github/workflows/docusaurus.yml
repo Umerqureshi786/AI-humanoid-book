@@ -11,26 +11,28 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
           node-version: '18'
           cache: 'npm'
+          cache-dependency-path: humanoid-book/package-lock.json
 
       - name: Install dependencies
         run: npm install
-      - name: Install gh-pages
-        run: npm install gh-pages
+        working-directory: ./humanoid-book
+
       - name: Build website
         run: npm run build
+        working-directory: ./humanoid-book
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          publish_branch: gh-pages
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: 'Deploy to GitHub Pages'
+          publish_dir: ./humanoid-book/build
