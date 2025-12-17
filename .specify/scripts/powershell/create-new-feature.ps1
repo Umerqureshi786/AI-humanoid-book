@@ -9,6 +9,7 @@ param(
     [Parameter(ValueFromRemainingArguments = $true)]
     [string[]]$FeatureDescription
 )
+
 $ErrorActionPreference = 'Stop'
 
 # Show help if requested
