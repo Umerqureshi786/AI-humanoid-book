@@ -18,13 +18,13 @@ const config: Config = {
   url: 'https://umerqureshi786.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/humanoid-Book/',
+  baseUrl: '/AI-humanoid-book/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Umerqureshi786',
-  projectName: 'humanoid-Book',
+  projectName: 'AI-humanoid-book',
 
   onBrokenLinks: 'throw',
 
@@ -43,9 +43,8 @@ const config: Config = {
         docs: {
           path: 'book',
           routeBasePath: 'book',
-          sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/Umerqureshi786/humanoid-Book/tree/main/',
+editUrl:
+            'https://github.com/Umerqureshi786/AI-humanoid-book/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Umerqureshi786/humanoid-Book/tree/main/',
+            'https://github.com/Umerqureshi786/AI-humanoid-book/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -90,7 +89,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Umerqureshi786/humanoid-Book',
+          href: 'httpshttps://github.com/Umerqureshi786/AI-humanoid-book',
           position: 'right',
         },
       ],
@@ -133,7 +132,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Umerqureshi786/humanoid-Book', // Existing GitHub link for the repo
+              href: 'httpshttps://github.com/Umerqureshi786/AI-humanoid-book', // Existing GitHub link for the repo
             },
             {
               label: 'My GitHub Profile',
