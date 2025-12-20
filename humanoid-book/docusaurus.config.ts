@@ -88,7 +88,10 @@ editUrl:
           label: 'Book',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
           href: 'https://github.com/Umerqureshi786/AI-humanoid-book',
+          position: 'right',
+        },
       ],
     },
     footer: {
