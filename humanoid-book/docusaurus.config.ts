@@ -132,7 +132,8 @@ editUrl:
             },
             {
               label: 'GitHub',
-                            href: 'https://github.com/Umerqureshi786/AI-humanoid-book', // Existing GitHub link for the repo               },
+                            href: 'https://github.com/Umerqureshi786/AI-humanoid-book', // Existing GitHub link for the repo
+            },
             {
               label: 'My GitHub Profile',
               href: 'https://github.com/Umerqureshi786', // New GitHub profile link
